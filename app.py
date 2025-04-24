@@ -55,7 +55,7 @@ if st.button("💪🏼Check the password strength."):
 
         if percent == 100:
             st.success("✔️Your Password is strong and secure!")
-        if percent == 50:
+        elif percent == 50:
             st.warning("⚠️Your password is neither strong nor weak! Make it stong by adding more features.")
         else:
             st.error("❌Your password is weak!")
@@ -66,4 +66,4 @@ if st.button("💪🏼Check the password strength."):
             for tip in feedback:
                 st.write(tip)
         else:
-            st.error("🚨 Please enter a password to check.")
+            st.success("No Suggestions!")
