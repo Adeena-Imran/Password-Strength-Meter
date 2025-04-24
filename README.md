@@ -1,9 +1,11 @@
-📘 Project Title
-Password Strength Meter
+📘 Project Title:
+
+**Password Strength Meter**
 
 
 
-📝 Description
+📝 Description:
+
 A simple tool to evaluate the strength of a password based on criteria such as length, use of uppercase/lowercase letters, numbers, and special characters. 
 This project helps users create more secure passwords by providing real-time feedback.
 
